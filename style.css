@@ -1,0 +1,20 @@
+.container {
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+  }
+
+  .scroll-text {
+    display: inline-block;
+    font-size: 24px;
+    animation: slide 30s linear infinite;
+    padding-left: 100vw;
+  }
+
+  @keyframes slide {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }}
